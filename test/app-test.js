@@ -6,28 +6,6 @@ const app = require('../app');
 chai.should();
 chai.use(chaiHttp);
 const { expect } = chai;
-let authToken;
-
-/* Test the /GET route */
-// describe('app index route', () => {
-//   it('it should GET /', (done) => {
-//     chai.request(app)
-//       .get('/')
-//       .end((err, res) => {
-//         res.should.have.status(200);
-//         done();
-//       });
-//   });
-//
-//   it('it should handle 404 error', (done) => {
-//     chai.request(app)
-//       .get('/notExist')
-//       .end((err, res) => {
-//         res.should.have.status(404);
-//         done();
-//       });
-//   });
-// });
 
 describe('register new user', () => {
   it('should register a new user', (done) => {
