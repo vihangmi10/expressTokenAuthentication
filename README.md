@@ -1,4 +1,4 @@
-# Token Based Authentication In Express
+# JWT Token Based Authentication using Express
 
 ### Node Version 
 ```v12.8.1 ```  
